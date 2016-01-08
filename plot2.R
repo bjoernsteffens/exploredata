@@ -14,7 +14,6 @@ plot2 <- function() {
     # this solution.
     df_a$DateTime <- strptime(paste(df_a$Date, df_a$Time, sep = " "), format = "%d/%m/%Y %H:%M:%S")
     
-    plot.new()
     par(oma=c(0,0,2,0))
     plot(df_a$DateTime,df_a$Global_active_power, type = "l", xlab = "", ylab = "Global Active Power (kilowatts)")
     mtext("Plot2", outer = TRUE, col = "black", cex = 2, adj = 0, padj = 0)
