@@ -1,4 +1,4 @@
-plot3 <- function() {
+plot4 <- function() {
     
     #
     # Plot 1

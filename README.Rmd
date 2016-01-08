@@ -173,7 +173,7 @@ plot3 <- function() {
 ##Plot4 Code + png:
 
 ```{r}
-plot3 <- function() {
+plot4 <- function() {
     
     #
     # Plot 1
