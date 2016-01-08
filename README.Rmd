@@ -33,11 +33,6 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
     git remote add origin git@github.com:bjoernsteffens/exploredata.git
     git push -u origin master
 
-## All Plots
-
-|![alt text](https://github.com/bjoernsteffens/exploredata/blob/master/plot1.png "Plot1 PNG file")| ![alt text](https://github.com/bjoernsteffens/exploredata/blob/master/plot2.png "Plot1 PNG file")|
-| ![alt text](https://github.com/bjoernsteffens/exploredata/blob/master/plot3.png "Plot1 PNG file") | ![alt text](https://github.com/bjoernsteffens/exploredata/blob/master/plot4.png "Plot1 PNG file")|
-
 ##Plot1 Code + png:
 
 ```{r}
