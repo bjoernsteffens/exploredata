@@ -7,7 +7,24 @@ output: html_document
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-# Submitting the code to Git
+##Data Source
+   
+    https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+    
+    Data Set Variables
+    
+    1. Date: Date in format dd/mm/yyyy
+    2. Time: time in format hh:mm:ss
+    3. Global_active_power: household global minute-averaged active power (in kilowatt)
+    4. Global_reactive_power: household global minute-averaged reactive power (in kilowatt)
+    5. Voltage: minute-averaged voltage (in volt)
+    6. Global_intensity: household global minute-averaged current intensity (in ampere)
+    7. Sub_metering_1: energy sub-metering No. 1 (in watt-hour of active energy). It corresponds to the kitchen, containing mainly a dishwasher, an oven and a microwave (hot plates are not electric but gas powered).
+    8. Sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It corresponds to the laundry room, containing a washing-machine, a tumble-drier, a refrigerator and a light.
+    9. Sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
+
+##Submitting the code to Git
+
     git init
     git add README.Rmd 
     git add plot1.R
@@ -16,7 +33,7 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
     git remote add origin git@github.com:bjoernsteffens/exploredata.git
     git push -u origin master
 
-#Plot1 Code:
+##Plot1 Code + png:
 
 ```{r}
 plot1 <- function() {
@@ -70,7 +87,6 @@ plot1 <- function() {
 }
 ```
 
-#Plot1 Image
 ![alt text](https://github.com/bjoernsteffens/exploredata/blob/master/plot1.png "Plot1 PNG file")
 
 
