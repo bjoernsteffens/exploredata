@@ -38,6 +38,7 @@ plot1 <- function() {
     library(sqldf)
     df_aa <- read.csv.sql("household_power_consumption.txt", sep = ";", header = TRUE, "select * from file where Date='1/2/2007' or Date='2/2/2007'")
     
+    plot.new()
     par(oma=c(0,0,2,0))
     hist(df_aa$Global_active_power, xlab = "Global Active Power (kilowatts)", main = "Global Active Power", col = "red")    
     mtext("Plot1", outer = TRUE, col = "black", cex = 2, adj = 0, padj = 0)
