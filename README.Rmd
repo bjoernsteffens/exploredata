@@ -70,4 +70,7 @@ plot1 <- function() {
 }
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+#Plot1 Image
+![alt text](https://github.com/bjoernsteffens/exploredata/blob/master/plot1.png "Plot1 PNG file")
+
+
